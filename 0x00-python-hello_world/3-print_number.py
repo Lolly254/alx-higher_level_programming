@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 number = 98
-print(f"{number: d} Bettery Street")
+#the d in the line below represents a number
+print(f"{:d} Bettery Street".format(number))
