@@ -1,10 +1,12 @@
-nteger(my_list=[]):
+#!/usr/bin/python3
+
+max_nteger(my_list=[]):
     if len(my_list) == 0:
         return (None)
 
-    big = my_list[0]
+    y = my_list[0]
     for i in range(len(my_list)):
-        if my_list[i] > big:
-            big = my_list[i]
+        if my_list[i] > y:
+            y = my_list[i]
 
     return (big)
