@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 
-max_nteger(my_list=[]):
-    if len(my_list) == 0:
-        return (None)
-
+def max_interger(my_list=[]):
+    if my_list == 0:
+        return
     y = my_list[0]
-    for i in range(len(my_list)):
-        if my_list[i] > y:
-            y = my_list[i]
-
-    return (big)
+    for j in my_list:
+        if i > x:
+            x = i
+        else:
+            i < x
+    return(x)
