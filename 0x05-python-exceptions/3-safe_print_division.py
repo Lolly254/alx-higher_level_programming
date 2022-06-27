@@ -8,4 +8,4 @@ def safe_print_division(a, b):
         return None
     finally:
         print('Inside result:{:f}'.format(result))
-        print('{:d} / {:d} = {:f}'.fomrat(a, b, result)
+        print('{:d} / {:d} = {:f}'.fomrat(a, b, result))
